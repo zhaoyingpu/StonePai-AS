@@ -19,7 +19,7 @@ import android.app.Application;
 public class PaiApplication extends Application {
 	@Override
 	public void onCreate() {
-		PaiAsyncHttpClient.setAccessToken("fe3792e1879941c38ab5a9fd3e25bfd4");
+		PaiAsyncHttpClient.setAccessToken("dff5c241ffcf4f049a779fd7d5ea9701");
 		
 		File cacheDir = StorageUtils.getCacheDirectory(this);
 		ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(this)

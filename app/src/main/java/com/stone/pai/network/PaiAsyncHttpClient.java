@@ -3,7 +3,7 @@ package com.stone.pai.network;
 import com.loopj.android.http.*;
 
 public class PaiAsyncHttpClient extends AsyncHttpClient {
-	  private static final String BASE_URL = "http://case.stoneit.cn:8080/api/1.0/";
+	  private static final String BASE_URL = "http://casedev.stoneit.cn/api/1.0/";
 
 	  private static AsyncHttpClient client = new AsyncHttpClient();
 
